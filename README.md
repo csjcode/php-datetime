@@ -24,3 +24,8 @@ https://www.youtube.com/watch?v=uxERILCWzyI
 * SHORTCUT: $date = (new DateTime)->setTimeStamp('1466927122');
 * $date->setDate(2016,11,16); // Set date year, month, day
 * $date->setTime(2016,11,16); // Set time hour, minute, seconds
+
+### Modifying Date
+https://www.youtube.com/watch?v=67HGJfvEpkY
+
+* $date -> add(new DateInterval('P10DT2H')); // increment date by 10 days and 2 hours
