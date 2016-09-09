@@ -15,4 +15,8 @@ Sources:
 https://www.youtube.com/watch?v=uxERILCWzyI
 
 * $date = new DateTime;
-* echo $date->format('dS M Y');
+* $date->format('dS M Y');  Format date
+* $date->getTimeStamp(); Get timestamp
+* $date->getTimezone() // Get Timezone
+* $date->getTimezone()->getName() // Get Timezone name
+* $date = DateTime::createFromFormat('Y-m-d',$dateString); // ex. converts date from 2016-11-04
