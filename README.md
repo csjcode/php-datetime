@@ -20,3 +20,7 @@ https://www.youtube.com/watch?v=uxERILCWzyI
 * $date->getTimezone() // Get Timezone
 * $date->getTimezone()->getName() // Get Timezone name
 * $date = DateTime::createFromFormat('Y-m-d',$dateString); // ex. converts date from 2016-11-04
+* $date->setTimeStamp('1466927122'); // include a custom timestamp (getter)
+* SHORTCUT: $date = (new DateTime)->setTimeStamp('1466927122');
+* $date->setDate(2016,11,16); // Set date year, month, day
+* $date->setTime(2016,11,16); // Set time hour, minute, seconds
