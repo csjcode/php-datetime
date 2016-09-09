@@ -9,7 +9,7 @@ Sources:
 ### Setup DateTime class object
 
 * $date = new DateTime;
-* var_dump($date ); // take a look at what we have
+* var_dump($date); // take a look at what we have
 
 ### Formatting, Getters and Setters
 https://www.youtube.com/watch?v=uxERILCWzyI
@@ -29,3 +29,15 @@ https://www.youtube.com/watch?v=uxERILCWzyI
 https://www.youtube.com/watch?v=67HGJfvEpkY
 
 * $date -> add(new DateInterval('P10DT2H')); // increment date by 10 days and 2 hours
+* $date -> sub(new DateInterval('P10DT2H')); // increment date by 10 days and 2 hours
+* another way of doing it - $date = new DateTime('+2 days 5 hours');
+* or to set from predefined date: $date->setDate(1989,11,16); $date->modify('+2 days 5 hours');
+* GOTCHA - $date updates by reference so to duplicate original new Datetime use: $newDate = clone $date
+
+### DateTime Differences
+https://www.youtube.com/watch?v=W650vuIUoBI
+
+
+
+
+//
