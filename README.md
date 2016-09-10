@@ -40,6 +40,12 @@ https://www.youtube.com/watch?v=W650vuIUoBI
 * $myDay = (new DateTime)->setDate(2016,11,4)->setTime(10,00,00);
 * echo $timeUntilMyDay->format('%m months %d days %h hours');
 
+### DateTime Comparisons
+https://www.youtube.com/watch?v=kFMtXeZGXO4
+
+* if ((int) $date->format('Y')){
+
+
 
 
 //
