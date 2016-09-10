@@ -45,6 +45,12 @@ https://www.youtube.com/watch?v=kFMtXeZGXO4
 
 * if ((int) $date->format('Y')){
 
+### Timezones
+https://www.youtube.com/watch?v=0k7F_LjsU-k
+* $date->setTimezone(new DateTimeZone('Europe/London'));
+* $date = new DateTime('now', new DateTimeZone('Europe/London'));
+* Get list of timezones - var_dump(DateTimeZone::listIdentifiers());
+* Set default timezone: date_default_timezone_set($timezone);
 
 
 
