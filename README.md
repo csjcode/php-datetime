@@ -61,6 +61,18 @@ https://www.youtube.com/watch?v=DtO1W3BGqdU
 * $interval = new DateInterval('PT1H'); // every 1 hour
 * $dateRange = new DatePeriod($start, $interval, $end);
 
+### Useful functions
+https://www.youtube.com/watch?v=QO24EBpH4G8
+
+* echo time(); // unix time
+* echo microtime(true); // unix time as float
+* date();
+* checkdate(7, 31, 2016); // check if date is valid  // returns true
+* checkdate(7, 41, 2016); // check if date is valid  // returns false
+* Time Zones: var_dump(DatetimeZone::listIdentifiers());
+* foreach (timezone_identifiers_list() as $timezone) {
+
+  
 
 
 
