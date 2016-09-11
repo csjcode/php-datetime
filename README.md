@@ -52,6 +52,17 @@ https://www.youtube.com/watch?v=0k7F_LjsU-k
 * Get list of timezones - var_dump(DateTimeZone::listIdentifiers());
 * Set default timezone: date_default_timezone_set($timezone);
 
+### DateTime periods
+https://www.youtube.com/watch?v=DtO1W3BGqdU
+* $start -> setTime(10,0,0);
+* $end -> setTime(10,0,0);
+* $interval = new DateInterval('PT1H'); // every 1 hour
+* $dateRange = new DatePeriod($start, $interval, $end)
+* $interval = new DateInterval('PT1H'); // every 1 hour
+* $dateRange = new DatePeriod($start, $interval, $end);
+
+
+
 
 
 //
